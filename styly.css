@@ -13,3 +13,30 @@ h1 {
   font-size: 3rem;
   margin: 5%;
 }
+
+.info {
+  background-color: #283e50;
+  color: #ffffff;
+  font-size: 90%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.butt_start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0197f6;
+  color: #ffffff;
+  height: 2.5rem;
+  border-top: 1px solid #283e50;
+}
+
+.butt_rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1fcca4;
+  color: #ffffff;
+  height: 2.5rem;
+}
