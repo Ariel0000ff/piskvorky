@@ -15,7 +15,8 @@ a {
 }
 
 h1 {
-  font-family: lobster;
+  font-family: 'Lobster-Regular';
+  src: url('Lobster-Regular.ttf');
   font-size: 3rem;
   margin: 5%;
 }
