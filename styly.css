@@ -65,3 +65,74 @@ h1 {
   top: 20px;
   margin: 0 auto;
 }
+
+/*______________HRA
+*/
+.info_hra {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons_home_refresh {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.hraje {
+  font-size: larger;
+}
+
+
+.butt_home {
+  display: flex;
+  padding: 8px;
+  border-radius: 3px;
+  padding: 6px;
+  background-color: #1fcca4;
+}
+
+.butt_home:hover {
+  background-color: #1cbb96;
+}
+
+.butt_refresh {
+  display: flex;
+  padding: 8px;
+  border-radius: 3px;
+  padding: 6px;
+  background-color: #0197f6;
+  margin-left: 6px;
+}
+
+.butt_refresh:hover {
+  background-color: #0090e9;
+}
+
+
+.game_board {
+  border: 1px solid rgb(54, 42, 63);
+  margin: auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10.1fr);
+  width: 500px;
+  height: 500PX;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+}
