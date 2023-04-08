@@ -69,10 +69,11 @@ h1 {
 /*______________HRA
 */
 .info_hra {
-  display: flex;
+  display: grid;
   flex-direction: column;
   width: 350px;
-  justify-content: space-between;
+  max-width: 80vmin;
+  justify-content: center;
   font-family: sans-serif;
   position: relative;
   top: 20px;
@@ -82,16 +83,25 @@ h1 {
 main {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
 }
 
 .buttons_home_refresh {
   display: flex;
-  justify-content: space-between;
-  margin: auto;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+
+
 }
 
 .hraje {
   font-size: larger;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+
 }
 
 
@@ -123,16 +133,20 @@ main {
 
 .game_board {
   border: 1px solid rgb(54, 42, 63);
-  margin: auto;
+  margin: 20px;
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10.1fr);
-  width: 500px;
-  height: 500PX;
+  /*  width: 300px;
+  height: 300PX;*/
   justify-content: center;
+  aspect-ratio: 1/1;
 }
 
+
+
 .square {
-  display: flex;
+  display: grid;
+  color: #ffffff;
 }
